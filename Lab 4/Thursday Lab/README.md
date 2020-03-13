@@ -1,4 +1,4 @@
-#Problem
+# Problem
 
 Write an ALP that will take a single user input of (1-9). Read the character at position user input * 10 from file lab.txt and display the character. 
 The key that the user presses must not be displayed onscreen.
