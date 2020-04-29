@@ -78,7 +78,7 @@
 X1: mov ah, 09h
 	mov al, [si];character to display
 	mov bh, 00;page number
-	mov bl, 00001110b;attribute byte - see below
+	mov bl, 00001110b;attribute byte
 	mov cx, 01h;number of times to write
 	int 10h
 
