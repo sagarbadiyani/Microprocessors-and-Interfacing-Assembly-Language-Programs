@@ -96,7 +96,7 @@ X1: mov ah, 09h
 ;------Blocking Function-------
 	mov ah, 07h
 bf: int 21h;DOS Interrupt
-	cmp al, block ;if key pressed is %, then the program will terminate 
+	cmp al, block ;if key pressed is <block>, then the program will terminate 
 	jnz bf ;this snippet is to be written just before the exit condition
 
 .exit
